@@ -1,0 +1,14 @@
+a = int(input('a'))
+a_s = a
+b = int(input('b'))
+b_s = b
+s = 0
+while a != 0 and b != 0:
+    if a > b:
+        a = a % b
+    else:
+        b = b % a
+    s = a + b
+p = a_s / s
+q = b_s / s
+print(p,q, s)
