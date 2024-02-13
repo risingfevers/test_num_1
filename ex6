@@ -1,0 +1,15 @@
+a = str(input())
+l_a = 0
+l_b = 0
+b = str(input())
+
+l_a = len(a)
+l_b = len(b)
+int_a = int(l_a)
+int_b = int(l_b)
+if int_a > int_b:
+    print('число a больше числа b')
+elif int_a < int_b:
+    print('число b больше числа a')
+else:
+    print('видимо числа равны...')
